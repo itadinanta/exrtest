@@ -1,0 +1,33 @@
+[package]
+name = "exrtest"
+version = "0.1.0"
+authors = [
+	"norru <nigu.orru@gmail.com>"
+]
+
+[features]
+default = []
+profiler = []
+
+[[bin]]
+name = "exrtest"
+path = "src/main.rs"
+
+[dependencies]
+num ="*"
+num-traits="*"
+log="*"
+itertools = "*"
+log4rs = "*"
+cgmath="*"
+rand = "*"
+chrono="*"
+enum_primitive="*"
+bitflags="*"
+bit-set="*"
+csv = "*"
+rustc-serialize="*"
+image = "*"
+openexr = "*"
+getopts = "*"
+half = "*"
